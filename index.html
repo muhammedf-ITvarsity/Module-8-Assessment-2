@@ -41,9 +41,11 @@
         </table>
 
         <script>
-            var newLine = true; //boolean variable
+            //boolean variable
+            var newLine = true; 
             var value;
             var currentOperator;
+            
             //Event handler for when any digit button is pressed
             function digitBtnPressed(button){
 
@@ -61,6 +63,7 @@
                 document.getElementById("inputBox").value = 0;
                 newLine = true;
             }
+            
             //operator event handler
             function operatorBtnPressed(operator){
                 currentOperator = operator;
